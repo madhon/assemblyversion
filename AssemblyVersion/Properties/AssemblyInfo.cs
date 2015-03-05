@@ -2,12 +2,12 @@
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-[assembly : AssemblyTitle("AssemblyVersion")]
+[assembly : AssemblyTitle("AssemblyVersionApp")]
 [assembly : AssemblyDescription("")]
 [assembly : AssemblyConfiguration("")]
 [assembly : AssemblyCompany("Madhon")]
-[assembly : AssemblyProduct("AssemblyVersion")]
-[assembly : AssemblyCopyright("Copyright © Madhon 2007")]
+[assembly:  AssemblyProduct("AssemblyVersionApp")]
+[assembly : AssemblyCopyright("Copyright © Madhon 2015")]
 [assembly : AssemblyTrademark("")]
 [assembly : AssemblyCulture("")]
 
@@ -16,5 +16,5 @@ using System.Runtime.InteropServices;
 
 [assembly : Guid("e97bfa63-e8bc-41a8-90ce-52f4e7e31392")]
 
-[assembly : AssemblyVersion("2.0.0.0")]
-[assembly : AssemblyFileVersion("2.0.7284.1")]
+[assembly: AssemblyVersion("1.0.0.0")]
+[assembly: AssemblyFileVersion("1.0.15064.1712")]
