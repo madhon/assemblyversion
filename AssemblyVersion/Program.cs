@@ -1,6 +1,6 @@
 //-----------------------------------------------------------------------
 // <copyright file="Program.cs" company="Madhon">
-//     Company (c) 2018 Madhon
+//     Company (c) 2018-2020 Madhon
 // </copyright>
 //-----------------------------------------------------------------------
 
@@ -12,15 +12,15 @@ namespace AssemblyVersionProg
     /// <summary>
     /// Main entry point class
     /// </summary>
-    internal class Program
+    public static class Program
     {
         /// <summary>
         /// Main entry point Method
         /// </summary>
         /// <param name="args">Assembly file to parse and display version from</param>
-        private static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Assembly a = Assembly.LoadFrom(args[0]);
+            var a = Assembly.LoadFrom(args[0]);
             Console.WriteLine(a.FullName);
         }
     }
